@@ -1,1 +1,23 @@
+Parts / Proposal: 
+
+Specifications (like price estimates and certain aspects the product should be achieving)
+Total Cost should be <$65
+Basic Specifications
+Basic RC Car/Parts with battery and motors, wheels chassis (will remove and disregard remote/receiver) <$25.00
+Simple natural language to structured test app
+ESP32 board controlling motors and driving <$10.00
+Ultrasonic sensors to add a level of detection and “Safety” to it <$10.00
+Buck Boost, and motor H-Bridge <$20.00
+Car Modification
+https://www.amazon.com/gp/product/B0CGVJNVYH/ref=sw_img_1?smid=AFQCL1Z9O868R&psc=1
+Keep chassis, motor, wheels, battery holder
+Add ESP 32 for control
+Add H-Bridge
+Add Buck Converter
+Add Ultrasonic Sensors
+
+Progress:
+- Wowki to test code
+- Created a Python Script sending JSON packets
+- Connected to Vandy Devices WiFi
 
