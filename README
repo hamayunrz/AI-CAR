@@ -1,3 +1,27 @@
+# AI CAR
+
+ESP32-based smart car controlled over WiFi using JSON commands.
+
+## Features
+
+- WiFi-controlled ESP32 car
+- HTTP API for sending commands
+- Queue-based motion system
+- Independent drive + steering control
+- Supports single commands + sequences
+
+## How?
+
+The ESP32 hosts a local server and listens for JSON commands.
+
+Each command controls:
+- drive (forward/backward)
+- steer (left/right)
+- duration for both
+
+Commands are queued and executed one by one.
+
+
 Parts / Proposal: 
 
 Specifications (like price estimates and certain aspects the product should be achieving)
